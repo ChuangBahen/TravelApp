@@ -1,0 +1,165 @@
+{
+  "dayNumber": 2,
+  "date": "2026-04-11",
+  "dayOfWeek": "週六",
+  "theme": "上野動物園・百貨購物",
+  "location": "東京上野",
+  "accommodation": "mitsui-ueno",
+  "cards": [
+    {
+      "cardId": "d2-a1",
+      "cardType": "activity",
+      "time": "08:00",
+      "endTime": "09:00",
+      "title": "飯店早餐",
+      "subtitle": "三井花園飯店",
+      "location": {
+        "name": "三井ガーデンホテル上野",
+        "address": "東京都台東区東上野3-19-7"
+      },
+      "details": {
+        "note": "用完早餐後步行前往動物園，建議提早排隊"
+      }
+    },
+    {
+      "cardId": "d2-a2",
+      "cardType": "activity",
+      "time": "09:00",
+      "endTime": "09:30",
+      "title": "步行前往上野動物園",
+      "subtitle": "開園前排隊",
+      "location": {
+        "name": "上野恩賜公園",
+        "address": "東京都台東区上野公園"
+      },
+      "details": {
+        "walkDuration": "約5分鐘",
+        "tip": "週末人潮較多，建議開園前抵達排隊"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=三井ガーデンホテル上野&destination=上野動物園&travelmode=walking"
+    },
+    {
+      "cardId": "d2-a3",
+      "cardType": "activity",
+      "time": "09:30",
+      "endTime": "12:30",
+      "title": "上野動物園",
+      "subtitle": "🐼 直奔西園看熊貓！",
+      "location": {
+        "name": "恩賜上野動物園",
+        "address": "東京都台東区上野公園9-83"
+      },
+      "details": {
+        "hours": "9:30～17:00（最後入園 16:00）",
+        "admission": {
+          "adult": "¥600",
+          "senior65": "¥300",
+          "juniorHigh": "¥200",
+          "elementary": "免費"
+        },
+        "mustSee": ["熊貓「曉曉」「蕾蕾」", "鯨頭鸛", "北極熊", "企鵝"],
+        "childFriendly": [
+          "嬰兒車租借（¥500/天）",
+          "兒童動物園互動區"
+        ],
+        "tip": "入園後先去西園熊貓館，避開人潮高峰"
+      },
+      "tags": ["🐼 必看熊貓", "👶 親子友善"],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=上野動物園"
+    },
+    {
+      "cardId": "d2-r1",
+      "cardType": "restaurant",
+      "time": "12:30",
+      "endTime": "13:30",
+      "title": "午餐：園內 Saruyama Kitchen",
+      "subtitle": "邊看猴山邊用餐",
+      "location": {
+        "name": "Saruyama Kitchen",
+        "address": "上野動物園 西園內"
+      },
+      "details": {
+        "cuisine": "日式簡餐",
+        "priceRange": "¥800-1,200/人",
+        "feature": "熊貓造型餐點",
+        "vegetarianOption": "有蔬菜咖哩"
+      },
+      "tags": ["🍜 熊貓造型餐"],
+      "backup": [
+        {
+          "name": "上野公園野餐",
+          "description": "便利商店購買便當，享受春日櫻花（¥500-800）"
+        }
+      ]
+    },
+    {
+      "cardId": "d2-a4",
+      "cardType": "activity",
+      "time": "14:00",
+      "endTime": "16:00",
+      "title": "松坂屋上野店",
+      "subtitle": "百貨購物・退稅服務",
+      "location": {
+        "name": "松坂屋上野店",
+        "address": "東京都台東区上野3-29-5"
+      },
+      "details": {
+        "hours": "10:00～20:00",
+        "features": ["老牌百貨", "退稅服務", "美食街選擇多"],
+        "walkFrom": "上野動物園步行約8分鐘"
+      },
+      "tags": ["🎁 退稅購物"],
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=上野動物園&destination=松坂屋上野店&travelmode=walking"
+    },
+    {
+      "cardId": "d2-a5",
+      "cardType": "activity",
+      "time": "16:00",
+      "endTime": "17:30",
+      "title": "阿美橫町商店街",
+      "subtitle": "藥妝・零食・小吃攤",
+      "location": {
+        "name": "阿美橫町商店街",
+        "address": "東京都台東区上野6丁目"
+      },
+      "details": {
+        "features": ["藥妝店", "零食店", "小吃攤", "熱鬧有趣適合孩童"],
+        "walkFrom": "松坂屋步行約5分鐘"
+      },
+      "tags": ["🎁 藥妝零食"],
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=松坂屋上野店&destination=アメヤ横丁&travelmode=walking"
+    },
+    {
+      "cardId": "d2-r2",
+      "cardType": "restaurant",
+      "time": "18:00",
+      "endTime": "19:30",
+      "title": "晚餐：伊豆榮",
+      "subtitle": "300年鰻魚飯名店",
+      "location": {
+        "name": "伊豆榮 本店",
+        "address": "東京都台東区上野2-12-22"
+      },
+      "details": {
+        "cuisine": "鰻魚料理",
+        "priceRange": "¥3,000-5,000/人",
+        "history": "創業300年",
+        "vegetarianOption": "需事先確認",
+        "reservation": "建議預約"
+      },
+      "tags": ["🍜 300年名店", "📋 鰻魚飯"],
+      "backup": [
+        {
+          "name": "上野 藪そば",
+          "description": "手打蕎麥麵、有蔬菜天婦羅蕎麥",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=上野藪そば"
+        }
+      ],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=伊豆榮+上野"
+    }
+  ],
+  "routeSummary": {
+    "description": "飯店 →（步行5分鐘）→ 上野動物園 →（步行8分鐘）→ 松坂屋 →（步行5分鐘）→ 阿美橫町 → 飯店",
+    "mapUrl": "https://www.google.com/maps/dir/上野動物園/松坂屋上野店/アメヤ横丁"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "dayNumber": 1,
+  "date": "2026-04-10",
+  "dayOfWeek": "週五",
+  "theme": "抵達東京・上野",
+  "location": "東京上野",
+  "accommodation": "mitsui-ueno",
+  "cards": [
+    {
+      "cardId": "d1-t1",
+      "cardType": "transport",
+      "time": "10:40",
+      "endTime": "15:05",
+      "title": "桃園 ✈️ 成田機場",
+      "subtitle": "航班起飛",
+      "location": {
+        "name": "成田國際機場 第一航廈",
+        "address": "千葉県成田市古込1-1"
+      },
+      "details": {
+        "flightNo": "待確認",
+        "duration": "約3小時25分",
+        "note": "請於起飛前2.5小時抵達機場"
+      },
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=成田国際空港"
+    },
+    {
+      "cardId": "d1-a1",
+      "cardType": "activity",
+      "time": "15:05",
+      "endTime": "16:00",
+      "title": "抵達成田機場",
+      "subtitle": "入境・領取行李・購買車票",
+      "location": {
+        "name": "成田國際機場 第一航廈",
+        "address": "千葉県成田市古込1-1"
+      },
+      "details": {
+        "tasks": [
+          "入境審查（約30分鐘）",
+          "領取行李",
+          "購買 Skyliner 車票（京成電鐵櫃台）"
+        ]
+      },
+      "tags": ["🔖 購買Skyliner票"]
+    },
+    {
+      "cardId": "d1-t2",
+      "cardType": "transport",
+      "time": "16:30",
+      "endTime": "17:15",
+      "title": "成田機場 → 上野",
+      "subtitle": "京成電鐵 Skyliner",
+      "location": {
+        "name": "京成電鐵 成田機場站",
+        "address": "成田國際機場 B1F"
+      },
+      "details": {
+        "transportation": "京成 Skyliner",
+        "duration": "約41分鐘",
+        "fare": "成人 ¥2,520 / 兒童 ¥1,260（來回票更優惠 ¥4,500）",
+        "route": "成田機場 → 京成上野"
+      },
+      "routeDescription": "成田機場 →（Skyliner 約41分鐘）→ 京成上野站",
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=成田国際空港&destination=京成上野駅&travelmode=transit"
+    },
+    {
+      "cardId": "d1-a2",
+      "cardType": "activity",
+      "time": "17:30",
+      "endTime": "18:30",
+      "title": "飯店 Check-in",
+      "subtitle": "三井花園飯店上野",
+      "location": {
+        "name": "三井ガーデンホテル上野",
+        "address": "東京都台東区東上野3-19-7"
+      },
+      "details": {
+        "walkFrom": "京成上野站 步行約5分鐘",
+        "note": "辦理入住、休息整理行李"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=京成上野駅&destination=三井ガーデンホテル上野&travelmode=walking"
+    },
+    {
+      "cardId": "d1-r1",
+      "cardType": "restaurant",
+      "time": "18:30",
+      "endTime": "20:00",
+      "title": "晚餐：韻松亭",
+      "subtitle": "百年歷史・精緻日式料理",
+      "location": {
+        "name": "韻松亭",
+        "address": "東京都台東区上野公園4-59"
+      },
+      "details": {
+        "cuisine": "日式懷石料理",
+        "priceRange": "¥3,000-5,000/人",
+        "vegetarianOption": "✅ 有素食套餐",
+        "businessHours": "11:00-21:00",
+        "reservation": "建議預約"
+      },
+      "tags": ["🍜 百年名店"],
+      "backup": [
+        {
+          "name": "上野精養軒",
+          "description": "老牌洋食、咖哩飯、可詢問素食餐點",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=上野精養軒"
+        },
+        {
+          "name": "guruatsu",
+          "description": "蔬食專門店、30種以上蔬菜、全素食",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=guruatsu+上野"
+        }
+      ],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=韻松亭+上野"
+    }
+  ],
+  "routeSummary": {
+    "description": "成田機場 → 京成上野站（Skyliner 約41分鐘）→ 飯店（步行5分鐘）",
+    "mapUrl": "https://www.google.com/maps/dir/Narita+International+Airport/Keisei+Ueno+Station/三井ガーデンホテル上野"
+  }
+}

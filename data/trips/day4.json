@@ -1,0 +1,231 @@
+{
+  "dayNumber": 4,
+  "date": "2026-04-13",
+  "dayOfWeek": "週一",
+  "theme": "箱根深度遊・黃金路線",
+  "location": "箱根",
+  "accommodation": "yutowa-hakone",
+  "passUsed": "箱根周遊券 3日券（第2天）",
+  "cards": [
+    {
+      "cardId": "d4-a1",
+      "cardType": "activity",
+      "time": "08:00",
+      "endTime": "09:00",
+      "title": "飯店早餐",
+      "subtitle": "箱根 Yutowa",
+      "location": {
+        "name": "箱根ゆとわ 餐廳",
+        "address": "飯店內"
+      },
+      "details": {
+        "note": "一泊二食含早餐，享受和風早膳"
+      }
+    },
+    {
+      "cardId": "d4-t1",
+      "cardType": "transport",
+      "time": "09:00",
+      "endTime": "09:10",
+      "title": "強羅 → 早雲山",
+      "subtitle": "箱根登山纜車",
+      "location": {
+        "name": "強羅站",
+        "address": "神奈川県足柄下郡箱根町強羅"
+      },
+      "details": {
+        "transportation": "箱根登山纜車（ケーブルカー）",
+        "duration": "約10分鐘",
+        "fare": "箱根周遊券涵蓋"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=強羅駅&destination=早雲山駅&travelmode=transit"
+    },
+    {
+      "cardId": "d4-t2",
+      "cardType": "transport",
+      "time": "09:15",
+      "endTime": "09:25",
+      "title": "早雲山 → 大涌谷",
+      "subtitle": "箱根空中纜車",
+      "location": {
+        "name": "早雲山站",
+        "address": "神奈川県足柄下郡箱根町強羅"
+      },
+      "details": {
+        "transportation": "箱根空中纜車（ロープウェイ）",
+        "duration": "約8分鐘",
+        "fare": "箱根周遊券涵蓋",
+        "feature": "可俯瞰大涌谷火山地熱景觀"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=早雲山駅&destination=大涌谷駅&travelmode=transit"
+    },
+    {
+      "cardId": "d4-a2",
+      "cardType": "activity",
+      "time": "09:30",
+      "endTime": "10:45",
+      "title": "大涌谷散策",
+      "subtitle": "🥚 品嚐黑溫泉蛋",
+      "location": {
+        "name": "大涌谷",
+        "address": "神奈川県足柄下郡箱根町仙石原"
+      },
+      "details": {
+        "features": [
+          "火山活動地熱景觀",
+          "黑溫泉蛋（傳說吃一顆延壽7年！）",
+          "天氣好可遠眺富士山"
+        ],
+        "mustBuy": "黑溫泉蛋 5顆 ¥500",
+        "caution": "有硫磺味，幼童與長輩可能不適應，可縮短停留時間"
+      },
+      "tags": ["🥚 黑溫泉蛋", "🌋 火山景觀"],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=大涌谷"
+    },
+    {
+      "cardId": "d4-t3",
+      "cardType": "transport",
+      "time": "11:00",
+      "endTime": "11:20",
+      "title": "大涌谷 → 桃源台",
+      "subtitle": "箱根空中纜車",
+      "location": {
+        "name": "大涌谷站",
+        "address": "神奈川県足柄下郡箱根町仙石原"
+      },
+      "details": {
+        "transportation": "箱根空中纜車",
+        "duration": "約16分鐘",
+        "fare": "箱根周遊券涵蓋",
+        "feature": "可俯瞰蘆之湖全景"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=大涌谷駅&destination=桃源台駅&travelmode=transit"
+    },
+    {
+      "cardId": "d4-t4",
+      "cardType": "transport",
+      "time": "11:30",
+      "endTime": "12:00",
+      "title": "桃源台 → 元箱根港",
+      "subtitle": "🚢 蘆之湖海賊船",
+      "location": {
+        "name": "桃源台港",
+        "address": "神奈川県足柄下郡箱根町元箱根"
+      },
+      "details": {
+        "transportation": "箱根海賊船",
+        "duration": "約25分鐘",
+        "fare": "箱根周遊券涵蓋",
+        "feature": "復古海賊船造型，小孩最愛！可在甲板欣賞蘆之湖風光"
+      },
+      "tags": ["🚢 海賊船", "👶 親子推薦"],
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=桃源台港&destination=元箱根港&travelmode=transit"
+    },
+    {
+      "cardId": "d4-r1",
+      "cardType": "restaurant",
+      "time": "12:00",
+      "endTime": "13:00",
+      "title": "午餐：Bakery&Table",
+      "subtitle": "湖畔麵包店・蘆之湖景",
+      "location": {
+        "name": "Bakery&Table 箱根",
+        "address": "神奈川県足柄下郡箱根町元箱根9-1"
+      },
+      "details": {
+        "cuisine": "麵包・輕食",
+        "priceRange": "¥800-1,200/人",
+        "feature": "可邊看蘆之湖景邊用餐",
+        "vegetarianOption": "有素食麵包選擇"
+      },
+      "tags": ["🍜 湖景餐廳"],
+      "backup": [
+        {
+          "name": "權現茶屋",
+          "description": "箱根神社旁、甘酒、烤麻糬（¥500-800）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=権現茶屋+箱根"
+        }
+      ],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=Bakery%26Table+箱根"
+    },
+    {
+      "cardId": "d4-a3",
+      "cardType": "activity",
+      "time": "13:30",
+      "endTime": "15:00",
+      "title": "箱根神社參拜",
+      "subtitle": "⛩️ 水中鳥居・富士山絕景",
+      "location": {
+        "name": "箱根神社",
+        "address": "神奈川県足柄下郡箱根町元箱根80-1"
+      },
+      "details": {
+        "features": [
+          "水中鳥居（平和的鳥居）",
+          "富士山絕景（天氣好時）",
+          "祈求交通安全・開運"
+        ],
+        "walkFrom": "元箱根港步行約10分鐘",
+        "photoSpot": "水中鳥居是必拍景點，建議排隊等候"
+      },
+      "tags": ["⛩️ 水中鳥居", "📸 必拍景點"],
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=元箱根港&destination=箱根神社&travelmode=walking"
+    },
+    {
+      "cardId": "d4-t5",
+      "cardType": "transport",
+      "time": "15:30",
+      "endTime": "16:30",
+      "title": "元箱根 → 強羅",
+      "subtitle": "箱根登山巴士",
+      "location": {
+        "name": "元箱根港巴士站",
+        "address": "神奈川県足柄下郡箱根町元箱根"
+      },
+      "details": {
+        "transportation": "箱根登山巴士",
+        "duration": "約30-40分鐘",
+        "fare": "箱根周遊券涵蓋",
+        "route": "元箱根港 → 強羅站"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=元箱根港&destination=強羅駅&travelmode=transit"
+    },
+    {
+      "cardId": "d4-a4",
+      "cardType": "activity",
+      "time": "16:30",
+      "endTime": "18:30",
+      "title": "溫泉・休息時間",
+      "subtitle": "露天大浴場",
+      "location": {
+        "name": "箱根ゆとわ 大浴場",
+        "address": "飯店內"
+      },
+      "details": {
+        "note": "今日行程較滿，好好享受溫泉放鬆"
+      },
+      "tags": ["♨️ 溫泉"]
+    },
+    {
+      "cardId": "d4-r2",
+      "cardType": "restaurant",
+      "time": "19:00",
+      "endTime": "20:30",
+      "title": "飯店晚餐",
+      "subtitle": "一泊二食・懷石料理",
+      "location": {
+        "name": "箱根ゆとわ 餐廳",
+        "address": "飯店內"
+      },
+      "details": {
+        "mealType": "一泊二食（含早晚餐）",
+        "vegetarianOption": "✅ 可事先告知素食需求"
+      }
+    }
+  ],
+  "routeSummary": {
+    "description": "強羅 →（纜車）→ 早雲山 →（空中纜車）→ 大涌谷 →（空中纜車）→ 桃源台 →（海賊船）→ 元箱根港 →（步行）→ 箱根神社 →（巴士）→ 強羅",
+    "note": "這就是著名的「箱根黃金路線」！",
+    "mapUrl": "https://www.google.com/maps/dir/強羅駅/大涌谷/桃源台港/箱根神社/強羅駅"
+  }
+}

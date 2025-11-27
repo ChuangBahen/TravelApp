@@ -1,0 +1,290 @@
+{
+  "dayNumber": 5,
+  "date": "2026-04-14",
+  "dayOfWeek": "週二",
+  "theme": "川越一日遊・小江戶風情",
+  "location": "川越→上野",
+  "accommodation": "dormy-ueno",
+  "passUsed": "箱根周遊券 3日券（第3天・回程）",
+  "cards": [
+    {
+      "cardId": "d5-a1",
+      "cardType": "activity",
+      "time": "07:30",
+      "endTime": "08:30",
+      "title": "飯店早餐・退房",
+      "subtitle": "箱根 Yutowa",
+      "location": {
+        "name": "箱根ゆとわ",
+        "address": "神奈川県足柄下郡箱根町強羅1300-27"
+      },
+      "details": {
+        "tasks": [
+          "享用早餐",
+          "退房手續",
+          "領取行李"
+        ]
+      }
+    },
+    {
+      "cardId": "d5-t1",
+      "cardType": "transport",
+      "time": "08:30",
+      "endTime": "09:15",
+      "title": "強羅 → 箱根湯本",
+      "subtitle": "箱根登山電車",
+      "location": {
+        "name": "強羅站",
+        "address": "神奈川県足柄下郡箱根町強羅"
+      },
+      "details": {
+        "transportation": "箱根登山電車",
+        "duration": "約40分鐘",
+        "fare": "箱根周遊券涵蓋"
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=強羅駅&destination=箱根湯本駅&travelmode=transit"
+    },
+    {
+      "cardId": "d5-t2",
+      "cardType": "transport",
+      "time": "09:15",
+      "endTime": "10:40",
+      "title": "箱根湯本 → 新宿",
+      "subtitle": "小田急浪漫特快",
+      "location": {
+        "name": "箱根湯本站",
+        "address": "神奈川県足柄下郡箱根町湯本"
+      },
+      "details": {
+        "transportation": "小田急浪漫特快 Romance Car",
+        "duration": "約85分鐘",
+        "fare": "箱根周遊券涵蓋（回程）"
+      },
+      "routeDescription": "箱根湯本 →（浪漫特快 約85分鐘）→ 新宿",
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=箱根湯本駅&destination=新宿駅&travelmode=transit"
+    },
+    {
+      "cardId": "d5-a2",
+      "cardType": "activity",
+      "time": "10:40",
+      "endTime": "11:00",
+      "title": "新宿站寄放行李",
+      "subtitle": "投幣式置物櫃",
+      "location": {
+        "name": "新宿站",
+        "address": "東京都新宿区新宿3丁目"
+      },
+      "details": {
+        "options": [
+          "投幣式置物櫃（大型約¥800-1,000/天）",
+          "ecbo cloak 行李寄存服務"
+        ],
+        "tip": "新宿站置物櫃熱門，建議早到；或使用 ecbo cloak APP 預約"
+      }
+    },
+    {
+      "cardId": "d5-t3",
+      "cardType": "transport",
+      "time": "11:00",
+      "endTime": "11:30",
+      "title": "新宿 → 川越",
+      "subtitle": "JR埼京線/東武東上線",
+      "location": {
+        "name": "新宿站",
+        "address": "東京都新宿区新宿3丁目"
+      },
+      "details": {
+        "transportation": "JR埼京線 → 池袋 → 東武東上線",
+        "duration": "約30-40分鐘",
+        "fare": "約¥500"
+      },
+      "routeDescription": "新宿 →（JR/東武 約30-40分鐘）→ 川越",
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=新宿駅&destination=川越駅&travelmode=transit"
+    },
+    {
+      "cardId": "d5-a3",
+      "cardType": "activity",
+      "time": "11:30",
+      "endTime": "12:00",
+      "title": "川越站・搭乘巡遊巴士",
+      "subtitle": "小江戶巡遊巴士",
+      "location": {
+        "name": "川越站",
+        "address": "埼玉県川越市脇田本町"
+      },
+      "details": {
+        "transportation": "小江戶巡遊巴士",
+        "fare": "1日券 ¥500",
+        "tip": "巴士連接主要景點，省時省力"
+      },
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=川越駅"
+    },
+    {
+      "cardId": "d5-a4",
+      "cardType": "activity",
+      "time": "12:00",
+      "endTime": "13:00",
+      "title": "川越冰川神社",
+      "subtitle": "🎣 釣鯛魚籤・祈求良緣",
+      "location": {
+        "name": "川越冰川神社",
+        "address": "埼玉県川越市宮下町2-11-3"
+      },
+      "details": {
+        "features": [
+          "祈求良緣聖地",
+          "釣鯛魚籤（めでたい）超有趣！",
+          "適合親子同樂"
+        ],
+        "mustDo": "釣鯛魚籤（紅色=戀愛運、粉色=結緣運）",
+        "tip": "6歲小孩會很喜歡釣魚籤的體驗"
+      },
+      "tags": ["⛩️ 良緣神社", "🎣 釣鯛魚籤", "👶 親子推薦"],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=川越氷川神社"
+    },
+    {
+      "cardId": "d5-r1",
+      "cardType": "restaurant",
+      "time": "13:00",
+      "endTime": "14:00",
+      "title": "午餐：小川菊",
+      "subtitle": "川越鰻魚飯名店",
+      "location": {
+        "name": "小川菊",
+        "address": "埼玉県川越市仲町3-22"
+      },
+      "details": {
+        "cuisine": "鰻魚飯",
+        "priceRange": "¥2,500-4,000/人",
+        "history": "創業200年老店",
+        "note": "需排隊，建議提早",
+        "vegetarianOption": "無"
+      },
+      "tags": ["🍜 200年名店", "📋 鰻魚飯"],
+      "backup": [
+        {
+          "name": "OHANA",
+          "description": "極上親子丼、蛋嫩滑（¥1,200-1,800）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=OHANA+川越"
+        },
+        {
+          "name": "春夏秋冬（金笛）",
+          "description": "醬油釀造見學餐廳、有素食選項（¥1,000-1,500）",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=金笛+川越"
+        }
+      ],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=小川菊+川越"
+    },
+    {
+      "cardId": "d5-a5",
+      "cardType": "activity",
+      "time": "14:00",
+      "endTime": "15:30",
+      "title": "藏造老街散策",
+      "subtitle": "🏯 一番街・時之鐘",
+      "location": {
+        "name": "藏造老街（一番街）",
+        "address": "埼玉県川越市幸町"
+      },
+      "details": {
+        "features": [
+          "江戶時代藏造建築群",
+          "「時之鐘」地標（每日敲鐘4次）",
+          "復古街道氛圍"
+        ],
+        "photoSpot": "時之鐘是川越必拍地標"
+      },
+      "tags": ["🏯 藏造建築", "📸 時之鐘"],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=川越一番街"
+    },
+    {
+      "cardId": "d5-a6",
+      "cardType": "activity",
+      "time": "15:30",
+      "endTime": "16:30",
+      "title": "菓子屋橫丁",
+      "subtitle": "🍬 傳統糖果街・小孩最愛！",
+      "location": {
+        "name": "菓子屋橫丁",
+        "address": "埼玉県川越市元町2丁目"
+      },
+      "details": {
+        "features": [
+          "傳統糖果店聚集街道",
+          "巨無霸黑糖棒（麩菓子）",
+          "各式懷舊糖果、零食"
+        ],
+        "mustBuy": "巨無霸黑糖棒（約95cm長！）"
+      },
+      "tags": ["🍬 傳統糖果", "🎁 必買伴手禮", "👶 小孩最愛"],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=菓子屋横丁"
+    },
+    {
+      "cardId": "d5-t4",
+      "cardType": "transport",
+      "time": "17:00",
+      "endTime": "18:00",
+      "title": "川越 → 上野",
+      "subtitle": "東武東上線→JR山手線",
+      "location": {
+        "name": "川越站",
+        "address": "埼玉県川越市脇田本町"
+      },
+      "details": {
+        "transportation": "東武東上線 → 池袋 → JR山手線",
+        "duration": "約50-60分鐘",
+        "route": "川越 →（東武東上線 30分）→ 池袋 →（JR山手線 20分）→ 上野"
+      },
+      "routeDescription": "川越 →（東武 30分）→ 池袋 →（JR 20分）→ 上野",
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=川越駅&destination=上野駅&travelmode=transit"
+    },
+    {
+      "cardId": "d5-a7",
+      "cardType": "activity",
+      "time": "18:00",
+      "endTime": "18:30",
+      "title": "飯店 Check-in",
+      "subtitle": "上野 DORMY INN",
+      "location": {
+        "name": "ドーミーイン上野",
+        "address": "東京都台東区上野6-7-22"
+      },
+      "details": {
+        "walkFrom": "上野站步行約3分鐘",
+        "features": ["大浴場", "免費宵夜拉麵（21:30-23:00）"]
+      },
+      "navigationUrl": "https://www.google.com/maps/dir/?api=1&origin=上野駅&destination=ドーミーイン上野&travelmode=walking"
+    },
+    {
+      "cardId": "d5-r2",
+      "cardType": "restaurant",
+      "time": "19:00",
+      "endTime": "20:30",
+      "title": "晚餐：一蘭拉麵",
+      "subtitle": "一人一座位・適合各年齡層",
+      "location": {
+        "name": "一蘭拉麵 上野店",
+        "address": "東京都台東区上野7-1-1"
+      },
+      "details": {
+        "cuisine": "豚骨拉麵",
+        "priceRange": "¥1,000-1,500/人",
+        "feature": "一人一座位，專注享用拉麵",
+        "vegetarianOption": "無（備案：磯丸水產有蔬菜串）"
+      },
+      "tags": ["🍜 一蘭拉麵"],
+      "backup": [
+        {
+          "name": "磯丸水產",
+          "description": "海鮮居酒屋、自己烤、有蔬菜串",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=磯丸水產+上野"
+        }
+      ],
+      "navigationUrl": "https://www.google.com/maps/search/?api=1&query=一蘭+上野"
+    }
+  ],
+  "routeSummary": {
+    "description": "強羅 →（登山電車）→ 箱根湯本 →（浪漫特快）→ 新宿 →（JR/東武）→ 川越 →（東武/JR）→ 上野",
+    "mapUrl": "https://www.google.com/maps/dir/強羅駅/箱根湯本駅/新宿駅/川越駅/上野駅"
+  }
+}

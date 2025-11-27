@@ -1,0 +1,151 @@
+{
+  "tripId": "japan-2026-spring",
+  "tripName": "日本東京・箱根・川越 六天五夜家族旅遊",
+  "startDate": "2026-04-10",
+  "endDate": "2026-04-15",
+  "destinations": ["東京上野", "箱根", "川越"],
+  "travelers": {
+    "total": 8,
+    "adults": 6,
+    "children": 2,
+    "details": [
+      { "role": "長輩", "age": "60+", "notes": "素食", "count": 1 },
+      { "role": "長輩", "age": "60+", "notes": "", "count": 1 },
+      { "role": "成人", "age": "40", "notes": "", "count": 4 },
+      { "role": "兒童", "age": "6歲", "notes": "", "count": 1 },
+      { "role": "幼童", "age": "2歲半", "notes": "需嬰兒推車", "count": 1 }
+    ]
+  },
+  "flightInfo": {
+    "outbound": {
+      "flightNo": "待確認",
+      "departure": {
+        "airport": "桃園國際機場 (TPE)",
+        "date": "2026-04-10",
+        "time": "10:40"
+      },
+      "arrival": {
+        "airport": "成田國際機場 (NRT)",
+        "terminal": "第一航廈",
+        "date": "2026-04-10",
+        "time": "15:05"
+      }
+    },
+    "return": {
+      "flightNo": "待確認",
+      "departure": {
+        "airport": "成田國際機場 (NRT)",
+        "date": "2026-04-15",
+        "time": "14:10"
+      },
+      "arrival": {
+        "airport": "桃園國際機場 (TPE)",
+        "date": "2026-04-15",
+        "time": "約17:30"
+      }
+    }
+  },
+  "accommodations": [
+    {
+      "hotelId": "mitsui-ueno",
+      "hotelName": "三井花園飯店上野",
+      "hotelNameJP": "三井ガーデンホテル上野",
+      "address": "東京都台東区東上野3-19-7",
+      "checkIn": "2026-04-10",
+      "checkOut": "2026-04-12",
+      "nights": 2,
+      "nearestStation": "京成上野站步行約5分鐘",
+      "features": ["大廳熊貓裝飾", "大浴場", "家庭房型選擇多"],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=三井ガーデンホテル上野",
+      "backup": ["上野HOTEL MYSTAYS", "上野DORMY INN"]
+    },
+    {
+      "hotelId": "yutowa-hakone",
+      "hotelName": "箱根 Yutowa 旅館",
+      "hotelNameJP": "箱根ゆとわ",
+      "address": "神奈川県足柄下郡箱根町強羅1300-27",
+      "checkIn": "2026-04-12",
+      "checkOut": "2026-04-14",
+      "nights": 2,
+      "nearestStation": "強羅站步行約5分鐘",
+      "features": [
+        "2019年開幕",
+        "現代和風設計",
+        "有6人房家庭房型",
+        "提供嬰兒床、嬰兒澡盆、奶瓶消毒設施",
+        "露天大浴場",
+        "2歲以下免費同住不佔床"
+      ],
+      "mealPlan": "一泊二食",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=箱根ゆとわ",
+      "backup": ["箱根蘆之湖香織旅館", "小田急山之飯店"]
+    },
+    {
+      "hotelId": "dormy-ueno",
+      "hotelName": "上野DORMY INN",
+      "hotelNameJP": "ドーミーイン上野",
+      "address": "東京都台東区上野6-7-22",
+      "checkIn": "2026-04-14",
+      "checkOut": "2026-04-15",
+      "nights": 1,
+      "nearestStation": "上野站步行約3分鐘",
+      "features": ["大浴場", "免費宵夜拉麵", "近車站"],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ドーミーイン上野"
+    }
+  ],
+  "transportPasses": [
+    {
+      "passName": "Skyliner 來回票",
+      "price": { "adult": 4500, "child": 2250 },
+      "currency": "JPY",
+      "description": "成田機場↔上野，最快41分鐘"
+    },
+    {
+      "passName": "箱根周遊券 3日券",
+      "price": { "adult": 7500, "child": 1850 },
+      "currency": "JPY",
+      "description": "含新宿↔箱根來回+箱根區內8種交通工具無限搭乘"
+    },
+    {
+      "passName": "東京地鐵 72小時券",
+      "price": { "adult": 1500, "child": 750 },
+      "currency": "JPY",
+      "description": "可與 Skyliner 套票購買更優惠"
+    }
+  ],
+  "emergencyContacts": {
+    "police": "110",
+    "ambulance": "119",
+    "taiwanOffice": {
+      "name": "駐日台北經濟文化代表處",
+      "phone": "03-3280-7811"
+    }
+  },
+  "vegetarianRestaurants": [
+    { "name": "guruatsu", "area": "上野", "description": "蔬食專門店、30種以上蔬菜、份量大" },
+    { "name": "AIN SOPH 銀座店", "area": "銀座", "description": "全素食、有鰻魚丼素食版、創意料理" },
+    { "name": "菜道 SAIDO", "area": "自由之丘", "description": "世界第一素食餐廳、分子料理" },
+    { "name": "直吉", "area": "箱根湯本", "description": "溫泉水豆腐、素食套餐" },
+    { "name": "春夏秋冬（金笛）", "area": "川越", "description": "金笛醬油直營、有素食選項" }
+  ],
+  "childcareNotes": [
+    "2歲半幼童：建議攜帶輕便嬰兒車、備用尿布、小點心",
+    "6歲兒童：可在上野動物園租借嬰兒車（500日圓）",
+    "行程節奏：建議每日安排1-2個主要景點，預留休息時間",
+    "藥品準備：退燒藥、止瀉藥、OK繃、防蚊液"
+  ],
+  "recommendedApps": [
+    { "name": "乘換案內", "description": "查詢交通路線" },
+    { "name": "Google Maps", "description": "導航" },
+    { "name": "Google 翻譯", "description": "拍照翻譯菜單" },
+    { "name": "PayPay", "description": "日本行動支付" }
+  ],
+  "days": [
+    { "dayNumber": 1, "date": "2026-04-10", "file": "day1.json" },
+    { "dayNumber": 2, "date": "2026-04-11", "file": "day2.json" },
+    { "dayNumber": 3, "date": "2026-04-12", "file": "day3.json" },
+    { "dayNumber": 4, "date": "2026-04-13", "file": "day4.json" },
+    { "dayNumber": 5, "date": "2026-04-14", "file": "day5.json" },
+    { "dayNumber": 6, "date": "2026-04-15", "file": "day6.json" }
+  ]
+}
